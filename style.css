@@ -1,0 +1,43 @@
+/* #container{
+    display: flexbox;
+}
+*/
+
+body{
+    background-color: rgb(240, 237, 237);
+}
+
+#container
+{
+    width: 500px;
+    margin-top: 10%;
+    /* make a div stay in the middle here */
+    margin-left: auto;
+    margin-right: auto;  
+} 
+
+#number-of-result{
+    display: flex;
+    align-items: center;
+    label{margin-top:5px;};
+}
+
+#number-display{
+    width: 70px;
+    margin-left: 10px;
+}
+
+.search-button{
+    border: 0.1px solid rgb(221, 213, 213);
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.search-button:hover{
+    box-shadow: 2px 2px 10px rgb(173, 182, 196);
+    border: 0.1px solid rgb(0, 0, 0);
+}
+
